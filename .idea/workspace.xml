@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aebc8b8e-82b2-4865-a388-a600fd179d82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="446" />
-    <option name="y" value="18" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="445" />
+    <option name="y" value="17" />
     <option name="width" value="1071" />
-    <option name="height" value="976" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -41,11 +41,6 @@
             <path>
               <item name="leetcodeExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcodeExercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcodeExercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcodeExercise" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcodeExercise" type="b2602c69:ProjectViewProjectNode" />
@@ -91,12 +86,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571155558834</updated>
-      <workItem from="1571155560252" duration="983000" />
+      <workItem from="1571155560252" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="983000" />
+    <option name="totallyTimeSpent" value="1514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -115,13 +110,13 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Statistic" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32959327" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
