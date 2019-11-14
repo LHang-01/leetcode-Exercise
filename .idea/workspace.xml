@@ -35,20 +35,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/division/num53.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stringtrain/num12.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/division/num169.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +81,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/stringtrain/Main.java" />
         <option value="$PROJECT_DIR$/src/division/num53.java" />
+        <option value="$PROJECT_DIR$/src/division/num169.java" />
       </list>
     </option>
   </component>
@@ -91,7 +95,7 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-117" />
     <option name="y" value="180" />
     <option name="width" value="986" />
@@ -144,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573739389196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573744569657" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../community-01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -262,12 +266,12 @@
       <workItem from="1571658382373" duration="1672000" />
       <workItem from="1571743626855" duration="605000" />
       <workItem from="1572434688698" duration="40000" />
-      <workItem from="1573732010692" duration="7556000" />
+      <workItem from="1573732010692" duration="10510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31519000" />
+    <option name="totallyTimeSpent" value="34473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,6 +284,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20531562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -422,8 +427,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/division/num53.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/division/num169.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
