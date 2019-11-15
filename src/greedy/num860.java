@@ -1,7 +1,6 @@
 package greedy;
 
 import java.util.HashMap;
-import java.util.Stack;
 
 /**
  * 860. 柠檬水找零
