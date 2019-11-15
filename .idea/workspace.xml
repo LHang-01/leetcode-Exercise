@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aebc8b8e-82b2-4865-a388-a600fd179d82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeExercise/dynamicPlanning/num121.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeExercise/dynamicPlanning/num121.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dynamicPlanning/num198.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="231">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicPlanning/num303.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+              <folding>
+                <element signature="e#810#811#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/greedy/num860.java" />
         <option value="$PROJECT_DIR$/src/dynamicPlanning/num121.java" />
         <option value="$PROJECT_DIR$/src/dynamicPlanning/num198.java" />
+        <option value="$PROJECT_DIR$/src/dynamicPlanning/num303.java" />
       </list>
     </option>
   </component>
@@ -151,8 +163,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-117" />
-    <option name="y" value="180" />
+    <option name="x" value="-185" />
+    <option name="y" value="80" />
     <option name="width" value="986" />
     <option name="height" value="821" />
   </component>
@@ -215,7 +227,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573808458093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573811244370" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../community-01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,12 +350,12 @@
       <workItem from="1571658382373" duration="1672000" />
       <workItem from="1571743626855" duration="605000" />
       <workItem from="1572434688698" duration="40000" />
-      <workItem from="1573732010692" duration="33797000" />
+      <workItem from="1573732010692" duration="36595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57760000" />
+    <option name="totallyTimeSpent" value="60558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,10 +367,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <frame x="-149" y="65" width="795" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20531562" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4192673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -368,7 +380,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45582047" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40532959" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40532959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
@@ -453,7 +465,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dynamicPlanning/num198.java</url>
-          <line>69</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -608,8 +620,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicPlanning/num198.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="231">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicPlanning/num303.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
