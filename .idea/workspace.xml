@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aebc8b8e-82b2-4865-a388-a600fd179d82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeExercise/dynamicPlanning/num746.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hashTable/num136.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="190">
+              <caret line="19" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hashTable/num202.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="54" column="21" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="54" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/dynamicPlanning/num70.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -119,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/dynamicPlanning/num746.java" />
         <option value="$PROJECT_DIR$/src/hashTable/num1.java" />
         <option value="$PROJECT_DIR$/src/hashTable/num136.java" />
+        <option value="$PROJECT_DIR$/src/hashTable/num202.java" />
       </list>
     </option>
   </component>
@@ -178,12 +192,6 @@
             </path>
             <path>
               <item name="leetcodeExercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcodeExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hashTable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcodeExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -197,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573828141974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573830320845" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../community-01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.num746">
+  <component name="RunManager" selected="Application.num202">
     <configuration name="jianXinJingRong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.jianXinJingRong" />
       <module name="leetcodeExercise" />
@@ -257,6 +265,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="num202" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.num202" />
+      <module name="leetcodeExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="num746" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicPlanning.num746" />
       <module name="leetcodeExercise" />
@@ -270,26 +291,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="num860" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.num860" />
-      <module name="leetcodeExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.num202" />
         <item itemvalue="Application.num746" />
         <item itemvalue="Application.jianXinJingRong" />
         <item itemvalue="Application.num198" />
         <item itemvalue="Application.num121" />
-        <item itemvalue="Application.num860" />
       </list>
     </recent_temporary>
   </component>
@@ -314,12 +322,12 @@
       <workItem from="1571658382373" duration="1672000" />
       <workItem from="1571743626855" duration="605000" />
       <workItem from="1572434688698" duration="40000" />
-      <workItem from="1573732010692" duration="47786000" />
+      <workItem from="1573732010692" duration="50034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71749000" />
+    <option name="totallyTimeSpent" value="73997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -332,6 +340,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23122923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,7 +352,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39691445" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40532959" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15147266" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
@@ -351,7 +360,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49966776" visible="true" weight="0.16690043" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49966776" weight="0.20617111" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50033224" side_tool="true" weight="0.32819074" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -431,6 +440,18 @@
           <line>36</line>
           <properties />
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hashTable/num202.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hashTable/num202.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -615,14 +636,24 @@
     <entry file="file://$PROJECT_DIR$/src/dynamicPlanning/num70.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <caret line="19" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hashTable/num136.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="190">
+          <caret line="19" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hashTable/num202.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="54" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
