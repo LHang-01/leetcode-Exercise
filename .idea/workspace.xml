@@ -35,11 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hashTable/num217.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="83">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hashTable/num219.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,6 +110,7 @@
         <option value="$PROJECT_DIR$/src/hashTable/num204.java" />
         <option value="$PROJECT_DIR$/src/hashTable/num205.java" />
         <option value="$PROJECT_DIR$/src/hashTable/num217.java" />
+        <option value="$PROJECT_DIR$/src/hashTable/num219.java" />
       </list>
     </option>
   </component>
@@ -161,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573985796221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573987032998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../community-01" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -279,12 +289,12 @@
       <workItem from="1571743626855" duration="605000" />
       <workItem from="1572434688698" duration="40000" />
       <workItem from="1573732010692" duration="51528000" />
-      <workItem from="1573975828788" duration="3962000" />
+      <workItem from="1573975828788" duration="5119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79453000" />
+    <option name="totallyTimeSpent" value="80610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +309,7 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23455149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23455149" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -309,7 +319,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39691445" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35203367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4165498" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
@@ -317,7 +327,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32913166" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49966776" weight="0.17391305" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49966776" visible="true" weight="0.17391305" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50033224" side_tool="true" weight="0.32819074" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32959327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,7 +428,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hashTable/num217.java</url>
-          <line>23</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -618,8 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hashTable/num217.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="83">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hashTable/num219.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
