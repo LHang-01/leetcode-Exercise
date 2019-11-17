@@ -29,10 +29,12 @@ public class num204 {
         int[] nums = new int[n];
         for (int i=2;i<n;i++){
             for (int j=2;i*j<n;j++){
+                //1表示不为质数
                 nums[i*j]=1;
             }
         }
         int res = 0;
+        //0表示质数，下面统计质数个数
         for (int i = 2; i < n; i++) {
             if (nums[i] == 0)
                 res++;
