@@ -28,7 +28,7 @@ public class num121 {
         int profit;
         int max;
         int maxProfit=0;
-        for (int i=0;i<prices.length;i++){
+        for (int i=0;i<prices.length;i=j){
             j=i+1;
             max=prices[i];
             while(j<prices.length&&prices[j]>prices[i]){
