@@ -13,9 +13,9 @@ package division;
 public class num53 {
     public static void main(String[] arrs){
         int[] arr = new int[]{-2,1,-3,4,-1,2,1,-5,4};
-        System.out.println(fun1(arr));
+        //System.out.println(fun1(arr));
         System.out.println(fun2(arr));
-        System.out.println(fun3(arr));
+        //System.out.println(fun3(arr));
     }
 
 
@@ -60,12 +60,42 @@ public class num53 {
         return Math.max((left>right?left:right),leftHalfMax+rightHalfMax);
     }
 
-    //贪心算法
+    /**贪心算法
+     * 执行用时 :
+     * 1 ms
+     * , 在所有 java 提交中击败了
+     * 99.98%
+     * 的用户
+     * 内存消耗 :
+     * 38.2 MB
+     * , 在所有 java 提交中击败了
+     * 86.42%
+     * 的用户
+     * @param arr
+     * @return
+     */
     private static int fun2(int[] arr) {
-        if(arr.length==0&&arr==null){
+        if(arr==null){
             return -1;
         }
-        int ans = arr[0];
+        int preSum = arr[0];
+        for (int i=0;i<arr.length;i++){
+            int nowSum =arr[i];
+            if (nowSum>preSum){
+                preSum = nowSum;
+            }
+            while (i+1<arr.length&&nowSum>=0){
+                nowSum += arr[i+1];
+                if (nowSum>preSum){
+                    preSum=nowSum;
+                }
+                i++;
+            }
+        }
+        return preSum;
+
+
+        /*int ans = arr[0];
         int sum;
         int j;
         for(int i=0;i<arr.length;i=j){
@@ -83,6 +113,8 @@ public class num53 {
             }
         }
         return ans;
+        */
+
     }
 
     //暴力法
