@@ -23,7 +23,11 @@ public class num169 {
         System.out.println(fun2(arr));
     }
 
-    //摩尔投票法
+    /*
+    摩尔投票法
+    执行用时 :26 ms, 在所有 java 提交中击败了21.25%的用户
+    内存消耗 :41 MB, 在所有 java 提交中击败了85.47%的用户
+     */
     private static int fun2(int[] arr) {
         Stack<Integer> stack = new Stack<>();
         for(int i=0;i<arr.length;i++){
@@ -38,7 +42,17 @@ public class num169 {
         return stack.peek();
     }
 
-    //哈希表
+    /*
+    哈希表
+    执行用时 :25 ms
+    , 在所有 java 提交中击败了
+    22.55%
+    的用户
+    内存消耗 :39.4 MB
+    , 在所有 java 提交中击败了
+    94.50%
+    的用户
+     */
     private static int fun1(int[] arr) {
         int ans=arr[0];
         HashMap<Integer, Integer> map = new HashMap<>();
