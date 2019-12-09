@@ -13,15 +13,9 @@ package array;
 public class Num283 {
     /**
      * 执行用时 :
-     * 0 ms
-     * , 在所有 java 提交中击败了
-     * 100.00%
-     * 的用户
+     * 0 ms , 在所有 java 提交中击败了 100.00%的用户
      * 内存消耗 :
-     * 37.6 MB
-     * , 在所有 java 提交中击败了
-     * 95.46%
-     * 的用户
+     * 37.6 MB, 在所有 java 提交中击败了95.46%的用户
      * 双指针
      * 该题等同于“将所有非 0 元素置于数组前面，保持它们的相对顺序相同”
      * @param nums
@@ -29,7 +23,7 @@ public class Num283 {
     public void moveZeroes(int[] nums) {
         int pre=0;
         int j;
-        for (int now = 0;now<nums.length;now=j) {
+        for (int now = 0;now<nums.length;now++) {
             if (nums[now]!=0){
                 nums[pre]=nums[now];
                 pre++;
