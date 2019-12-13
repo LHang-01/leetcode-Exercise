@@ -34,6 +34,11 @@ public class num12 {
         System.out.println(intToRoman(scanner.nextInt()));
     }
 
+    /**
+     *
+     * @param num
+     * @return
+     */
     public static String intToRoman(int num) {
 
         int[] nums = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};

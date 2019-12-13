@@ -12,29 +12,26 @@ public class Num209 {
     }
 
     public static int minSubArrayLen(int s, int[] nums) {
-        if(nums==null||nums.length==0) return 0;
-        int sum =nums[0];
-        int pre = nums.length;
-        int ans = 0;
-        int j;
+        int sum=0;
         for (int i =0 ;i<nums.length;i++){
-            j=i;
-            if (sum>=s){
-                ans--;
-                pre = Math.min(ans,pre);
-            }
-            while (sum<s&&j<nums.length){
-                sum+=nums[j];
-                j++;
-                ans++;
-            }
-            if (sum>=s){
-                pre = Math.min(ans,pre);
-            }else {
-                continue;
-            }
-            sum=sum-nums[i];
+            sum+=nums[i];
         }
-        return pre;
+        if (sum<s) return 0;
+        int pre = 0;
+        int last = nums.length-1;
+        while (pre<=last&&sum>=s){
+            if (nums[pre]<nums[last]){
+                sum-=nums[pre];
+                pre++;
+            }else {
+                sum-=nums[last];
+                last--;
+            }
+        }
+        if (sum>=s){
+            return last-pre+1;
+        }else {
+            return 0;
+        }
     }
 }

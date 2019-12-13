@@ -34,6 +34,20 @@ public class num13 {
 
     }
 
+    /**
+     * 执行用时 :
+     * 2 ms
+     * , 在所有 java 提交中击败了
+     * 46.92%
+     * 的用户
+     * 内存消耗 :
+     * 37.3 MB
+     * , 在所有 java 提交中击败了
+     * 79.14%
+     * 的用户
+     * @param s
+     * @return
+     */
     public static int romanToInt(String s) {
         HashMap<String, Integer> map = new HashMap<>();
         //基本情况

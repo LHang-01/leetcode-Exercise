@@ -29,7 +29,20 @@ public class num20 {
 
     }
 
-    //执行用时：4 ms,内存消耗34.2 MB
+    /**
+     * 执行用时 :
+     * 4 ms
+     * , 在所有 java 提交中击败了
+     * 38.77%
+     * 的用户
+     * 内存消耗 :
+     * 34.7 MB
+     * , 在所有 java 提交中击败了
+     * 82.67%
+     * 的用户
+     * @param s
+     * @return
+     */
     public static boolean isValid(String s) {
         HashMap<Character,Character> map = new HashMap<>();
         map.put('(',')');
