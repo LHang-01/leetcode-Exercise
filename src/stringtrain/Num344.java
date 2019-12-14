@@ -18,6 +18,8 @@ public class Num344 {
      * 1 ms , 在所有 java 提交中击败了100.00%的用户
      * 内存消耗 :
      * 51.1 MB, 在所有 java 提交中击败了81.49%的用户
+     *
+     * 双指针
      * @param s
      */
     public void reverseString(char[] s) {
