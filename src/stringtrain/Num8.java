@@ -1,5 +1,7 @@
 package stringtrain;
 
+import org.omg.CORBA.PUBLIC_MEMBER;
+
 /**
  * 请你来实现一个 atoi 函数，使其能将字符串转换成整数。
  * 首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。
@@ -24,41 +26,47 @@ package stringtrain;
  */
 
 public class Num8 {
-    public int myAtoi(String str) {
+    public static void main(String [] arrs){
+        myAtoi("20000000000000000000");
+    }
+    //执行用时 :2 ms, 在所有 java 提交中击败了99.53%的用户
+    //内存消耗 :35.7 MB, 在所有 java 提交中击败了89.50%的用户
+    public static int myAtoi(String str) {
         if (str==null||str.length()==0) return 0;
-        //丢弃无用的开头空格字符
-        int index=0;
-        while (index<str.length()&&str.charAt(index)==' '){
-            index++;
-        }
-        if (index==str.length()){
-            return 0;
-        }
-        //当我们寻找到的第一个非空字符为正或者负号时，则将该符号与之后面尽可能多的连续数字组合起来，作为该整数的正负号；
-        // 假如第一个非空字符是数字，则直接将其与之后连续的数字字符组合起来，形成整数。
-        int flag = 1;
-        int start = index;
-        while (start<str.length()&&(str.charAt(start)=='+'||str.charAt(start)=='-')){
+        //1.删除两端无用的空格字符
+        str = str.trim();
+        if (str==null||str.length()==0) return 0;
+        //2.判断数字的符号
+        int flag = 0;
+        int start = 0;
+        if (str.charAt(0)>='0'&&str.charAt(0)<='9'){
+            //数字开头为正号
+            flag = 1;
+        }else if (str.charAt(0)=='+'||str.charAt(0)=='-'){
+            flag = (str.charAt(0)=='+')?1:-1;
+            //当符号后面不是数字时 返回0
+            if (start+1>str.length()||!(str.charAt(start+1)>='0'&&str.charAt(start+1)<='9')){
+                return 0;
+            }
             start++;
-        }
-        if (start==str.length()||start-index>0){
-            return 0;
-        }
-        if (!(str.charAt(start)>='0'&&str.charAt(start)<='9')){
-            return 0;
-        }
-        while (index<str.length()&&str.charAt(index)>='0'&&str.charAt(index)<='9'){
-            index++;
-        }
-        int end=index;
-        String num = str.substring(start,end);
-        long number = Long.parseLong(num);
-        if (number>Integer.MAX_VALUE&&flag == 1){
-            return Integer.MAX_VALUE;
-        }else if (number>Integer.MAX_VALUE-1&&flag == -1){
-            return Integer.MIN_VALUE;
         }else {
-            return (int)number*flag;
+            return 0;
         }
+        //3.找出数字部分
+        int i = start;
+        long ans =0;
+        while (i<str.length()&&(str.charAt(i)>='0'&&str.charAt(i)<='9')){
+            ans = str.charAt(i)-'0'+ans*10;
+            //溢出判断
+            if (ans!=(int)ans){
+                if (flag==1){
+                    return Integer.MAX_VALUE;
+                }else {
+                    return Integer.MIN_VALUE;
+                }
+            }
+            i++;
+        }
+        return (int)ans*flag;
     }
 }
