@@ -20,16 +20,8 @@ public class Num88 {
     }
 
     /**
-     * 执行用时 :
-     * 0 ms
-     * , 在所有 java 提交中击败了
-     * 100.00%
-     * 的用户
-     * 内存消耗 :
-     * 36.2 MB
-     * , 在所有 java 提交中击败了
-     * 84.39%
-     * 的用户
+     * 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+     * 内存消耗 :36.2 MB, 在所有 java 提交中击败了84.39%的用户
      * 方法：从后面往前，从大到小排列
      * @param nums1
      * @param m
@@ -54,6 +46,33 @@ public class Num88 {
             while (n>=0){
                 nums1[n]=nums2[n];
                 n--;
+            }
+        }
+    }
+
+    /**
+     * 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+     * 内存消耗 :36 MB, 在所有 java 提交中击败了85.89%的用户
+     * @param nums1
+     * @param m
+     * @param nums2
+     * @param n
+     */
+    public void merge1(int[] nums1, int m, int[] nums2, int n) {
+        int end1 = m-1;
+        int end2 = n-1;
+        int k = nums1.length-1;
+        while (k>-1){
+            //num1数组已经移动完毕
+            if (end1<0){
+                nums1[k--]=nums2[end2--];
+            }else if (end2<0){
+                //num2数组已经移动完毕
+                return;
+            }else if (nums1[end1]<nums2[end2]){
+                nums1[k--]=nums2[end2--];
+            }else {
+                nums1[k--]=nums1[end1--];
             }
         }
     }
