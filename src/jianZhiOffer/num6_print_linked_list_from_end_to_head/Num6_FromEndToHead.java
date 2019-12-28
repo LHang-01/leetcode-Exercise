@@ -1,4 +1,4 @@
-package jianZhiOffer.print_linked_list_from_end_to_head;
+package jianZhiOffer.num6_print_linked_list_from_end_to_head;
 
 import java.util.ArrayList;
 import java.util.Stack;

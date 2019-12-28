@@ -25,7 +25,7 @@ public class Solution3 {
         return -1;
     }
     //2.思路：因为所有数字都在0到n-1的范围内，即num[i]的值在0到n-1的范围内；因此遍历数组中每一个数num[i]，并将nums[i]%n作为下标，将num[nums[i]%n]的值加上n，
-    //因为存在重复数字，则重复数字指向的位置上的值必定加了两次n，而不重复的数字指向的位置只加了一次n，因此，只要num[nums[i]%n]的值>2*n，就找到了重复的数字nums[i]%n。
+    //因为存在重复数字，则重复数字指向的位置上的值必定加了两次n，而不重复的数字指向的位置只加了一次n，因此，只要num[nums[i]%n]的值>=2*n，就找到了重复的数字nums[i]%n。
     //时间复杂度为O(n)、空间复杂度为O(1)(不需要额外的空间，但是需要修改原数组)
     public static int function2(int[] nums){
         int n=nums.length;
@@ -90,7 +90,7 @@ public class Solution3 {
         return fast;
     }
     //6.遍历数组（剑指offer的方法）：
-    // 1）如果值i在正确的位置（满足numbers[i] ==i），则说什么都不做；
+    // 1）如果值i在正确的位置（满足numbers[i] ==i），则什么都不做；
     // 2）如果值i没有在正确的位置（满足numbers[i] == i），通过交换两个元素，将值i放到正确的位置。这个过程可以看成是排序。
     // （交换过程：令j=numbers[i],判断j==numbers[j]是否相等，若相等，则说明在与i不同的位置j找到重复元素；不等则交换numbers[j]和numbers[i]，继续重复这一步。
     //时间复杂度为O(n)、空间复杂度为O(1)、但是修改了原数组
