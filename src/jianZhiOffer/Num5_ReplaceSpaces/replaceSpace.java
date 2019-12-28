@@ -6,20 +6,20 @@ package jianZhiOffer.Num5_ReplaceSpaces;
  */
 public class replaceSpace {
 
-    public String replaceSpace1(String str) {
+    public String replaceSpace(StringBuffer str) {
         StringBuilder builder = new StringBuilder();
-        for (char c:str.toCharArray()){
-            if (c==' '){
+        for (int i = 0;i<str.length();i++){
+            if (str.charAt(i)==' '){
                 builder.append("%20");
             }else {
-                builder.append(c);
+                builder.append(str.charAt(i));
             }
         }
         return builder.toString();
     }
     public static void main(String [] arrs){
         replaceSpace replaceSpace = new replaceSpace();
-        System.out.println((replaceSpace.replaceSpace1("We Are Happy ")));
+        System.out.println((replaceSpace.replaceSpace(new StringBuffer("We Are Happy "))));
         replaceSpace.mergeArray(new int[]{},new int[]{});
     }
 

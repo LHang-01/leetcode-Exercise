@@ -24,9 +24,12 @@ public class TwoStackImpQueue {
             throw new RuntimeException("队列为空");
         }
         //2.stack2为空，则需要将stack1中元素压入stack2中
-        while (stack2.isEmpty()){
-            stack2.push(stack1.pop());
+        if (stack2.isEmpty()){
+            while (!stack1.isEmpty()){
+                stack2.push(stack1.pop());
+            }
         }
+
         //3.stack2不为空，弹出栈顶元素，即队头
         return stack2.pop();
     }
