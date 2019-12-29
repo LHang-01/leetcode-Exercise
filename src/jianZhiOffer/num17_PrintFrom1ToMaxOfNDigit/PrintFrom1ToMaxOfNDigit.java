@@ -84,6 +84,7 @@ public class PrintFrom1ToMaxOfNDigit {
     //第二层         0000、0100...0900，       ......       ,9000、9100...9900，
     //其实就是一棵树，1)自上向下：第一次遍历最高位，第二层在第一层的基础上，遍历第二高位...，直到遍历到最低位数（个位），
     //               2）然后全部打印出来（也就是自下向上的过程）。
+    //总结：对于全排列，需要先设置后，再递归。
     private void printRecur(StringBuilder sb, int len, int index) {
         if (index == len - 1) {
             print(sb);
