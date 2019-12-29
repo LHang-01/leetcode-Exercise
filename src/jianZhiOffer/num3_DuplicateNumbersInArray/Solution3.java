@@ -89,27 +89,34 @@ public class Solution3 {
         }
         return fast;
     }
-    //6.遍历数组（剑指offer的方法）：
+    //6.遍历数组（剑指offer的方法）：duplication[0]用于返回值
     // 1）如果值i在正确的位置（满足numbers[i] ==i），则什么都不做；
     // 2）如果值i没有在正确的位置（满足numbers[i] == i），通过交换两个元素，将值i放到正确的位置。这个过程可以看成是排序。
     // （交换过程：令j=numbers[i],判断j==numbers[j]是否相等，若相等，则说明在与i不同的位置j找到重复元素；不等则交换numbers[j]和numbers[i]，继续重复这一步。
     //时间复杂度为O(n)、空间复杂度为O(1)、但是修改了原数组
-    public int function6(int[] nums) {
-        for (int i = 0;i<nums.length;i++){
+    public boolean duplicate(int numbers[],int length,int [] duplication) {
+        if(numbers==null||numbers.length==0){
+            return false;
+        }
+        for (int i = 0;i<numbers.length;i++){
             // 1）如果值i在正确的位置（满足numbers[i] ==i），则说什么都不做；
-            if (nums[i]!=i){
+            if (numbers[i]!=i){
                 // 2）如果值i没有在正确的位置，通过交换两个元素，将值i放到正确的位置。
-                int j = nums[i];
-                while (j!=nums[j]){
-                    nums[i]=nums[j];
-                    nums[j]=j;
-                    j=nums[i];
+                int j = numbers[i];
+                while (j!=numbers[j]){
+                    numbers[i]=numbers[j];
+                    numbers[j]=j;
+                    j=numbers[i];
                 }
                 //当j=numbers[j]且与i不同的位置j找到的才是重复元素。
-                if (j==nums[j]&&j!=i) return j;
+                if (j==numbers[j]&&j!=i) {
+                    duplication[0]=j;
+                    return true;
+                }
             }
         }
-        return -1;
+        duplication[0]=-1;
+        return false;
     }
 
     //7.思路：类似于二分查找
