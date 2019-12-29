@@ -6,7 +6,8 @@
 ## Num209有问题
 ## Num227有问题
 ## Num457有问题
-## num19_ReMatch有问题
+## num19_ReMatch有问题  正则匹配
+## num20_isNumeric有问题  正则匹配
 
 
 ## String
