@@ -1,7 +1,5 @@
 package linkedList;
 
-import java.util.HashSet;
-
 /**
  * 82. 删除排序链表中的重复元素 II
  * 给定一个排序链表，删除所有含有重复数字的节点，只保留原始链表中没有重复出现的数字。
@@ -15,8 +13,8 @@ import java.util.HashSet;
 public class Num82 {
     public  static  void main(String[] arrs){
         ListNode node =new ListNode(1);
-        node.next=new ListNode(1);
-        /*ListNode last=node.next;
+        node.next=new ListNode(2);
+        ListNode last=node.next;
         last.next=new ListNode(3);
         last=last.next;
         last.next=new ListNode(3);
@@ -26,8 +24,6 @@ public class Num82 {
         last.next=new ListNode(4);
         last=last.next;
         last.next=new ListNode(5);
-        */
-        deleteDuplicates(node);
     }
 
     /**
@@ -74,4 +70,5 @@ public class Num82 {
         }
         return node.next;
     }
+
 }
