@@ -46,9 +46,6 @@ public class num94 {
      */
     public List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        if (root==null){
-            return list;
-        }
         Stack<TreeNode> stack = new Stack<>();
         while (root!=null||!stack.isEmpty()){
             while (root!=null){
