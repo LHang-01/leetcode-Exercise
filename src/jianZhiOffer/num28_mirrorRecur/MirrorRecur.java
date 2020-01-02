@@ -67,6 +67,57 @@ public class MirrorRecur {
         }
     }
 
+    //leetcode101. 对称二叉树:请实现一个函数，用来判断一颗二叉树是不是对称的。注意，如果一个二叉树同此二叉树的镜像是同样的，定义其为对称的。
+    //1.栈
+    public boolean isSymmetric1(TreeNode root) {
+        if (root == null) return true;
+        Stack<TreeNode> stack1 = new Stack<>();
+        Stack<TreeNode> stack2 = new Stack<>();
+        stack1.push(root.left);
+        stack2.push(root.right);
+        while (!stack1.isEmpty() && !stack2.isEmpty()) {
+            TreeNode pop1 = stack1.pop();
+            TreeNode pop2 = stack2.pop();
+            if (pop1==null&&pop2==null) continue;
+            if (pop1==null||pop2==null) return false;
+            if (pop1.val == pop2.val){
+                //注意栈1先进左节点再进右节点，栈2先进右节点，再进左节点；
+                //这样才能在弹栈的时候进行对比。
+                stack1.push(pop1.left);
+                stack1.push(pop1.right);
+                stack2.push(pop2.right);
+                stack2.push(pop2.left);
+            }else {
+                return false;
+            }
+        }
+        return true;
+    }
+    //2.队列
+    public boolean isSymmetric2(TreeNode root) {
+        if (root == null) return true;
+        Queue<TreeNode> queue1 = new LinkedList<>();
+        Queue<TreeNode> queue2 = new LinkedList<>();
+        queue1.offer(root.left);
+        queue2.offer(root.right);
+        while (!queue1.isEmpty() && !queue2.isEmpty()) {
+            TreeNode pop1 = queue1.poll();
+            TreeNode pop2 = queue2.poll();
+            if (pop1==null&&pop2==null) continue;
+            if (pop1==null||pop2==null) return false;
+            if (pop1.val == pop2.val){
+                //注意队列1先进左节点再进右节点，队列2先进右节点，再进左节点；
+                //这样才能在弹栈的时候进行对比。
+                queue1.offer(pop1.left);
+                queue1.offer(pop1.right);
+                queue2.offer(pop2.right);
+                queue2.offer(pop2.left);
+            }else {
+                return false;
+            }
+        }
+        return true;
+    }
 }
 class TreeNode{
     int val;

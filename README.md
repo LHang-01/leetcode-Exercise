@@ -6,9 +6,15 @@
 ## Num209有问题
 ## Num227有问题
 ## Num457有问题
-## num19_ReMatch有问题  正则匹配
-## num20_isNumeric有问题  正则匹配
-
+## 剑指offernum19_ReMatch有问题  正则匹配
+## 剑指offernum20_isNumeric有问题  正则匹配
+## 剑指offer面试题29
+## 剑指offer36没看懂
+## 剑指offer38没看懂
+## 剑指offer39法1切分法，没看懂
+## 剑指offer面试题40
+## 剑指offer面试题42
+## 剑指offer面试题44有问题
 
 ## String
 ### 12.整数转罗马数字 

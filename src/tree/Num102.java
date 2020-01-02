@@ -37,13 +37,13 @@ public class Num102 {
     }
 
 
-    //和levelOrder方法差不多
+    //和levelOrder方法差不多(推荐，代码更简洁)
     public List<List<Integer>> levelOrder2(TreeNode root) {
         List<List<Integer>> lists = new ArrayList<>();
         if(root==null) return lists;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        while (true){
+        while (!queue.isEmpty()){
             ArrayList<Integer> list = new ArrayList<>();
             int size = queue.size();
             while (size>0){
@@ -54,11 +54,7 @@ public class Num102 {
                 size--;
             }
             lists.add(list);
-            //加这个判断是为了当遇到本层不为空，但下一层为空时，提前结束循环。
-            // 因为如果此处不加判断，就进入了下一层循环，但下一层没有节点，list就为空，就会把空的链表加入到lists里面，就出现了错误。
-            if (queue.size()==0){
-                return lists;
-            }
         }
+        return lists;
     }
 }
