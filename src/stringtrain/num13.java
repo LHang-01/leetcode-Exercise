@@ -35,18 +35,9 @@ public class num13 {
     }
 
     /**
-     * 执行用时 :
-     * 2 ms
-     * , 在所有 java 提交中击败了
-     * 46.92%
-     * 的用户
-     * 内存消耗 :
-     * 37.3 MB
-     * , 在所有 java 提交中击败了
-     * 79.14%
-     * 的用户
-     * @param s
-     * @return
+     * 法1：哈希表
+     * 执行用时 : 2 ms  , 在所有 java 提交中击败了 46.92% 的用户
+     * 内存消耗 : 37.3 MB , 在所有 java 提交中击败了 79.14% 的用户
      */
     public static int romanToInt(String s) {
         HashMap<String, Integer> map = new HashMap<>();
@@ -80,6 +71,40 @@ public class num13 {
 
         }
         return ans;
+    }
 
+    /**
+     * 法2：把一个小值放在大值的左边，就是做减法，否则为加法。
+     * 执行用时 : 5 ms , 在所有 Java 提交中击败了 87.02% 的用户
+     * 内存消耗 : 41.2 MB , 在所有 Java 提交中击败了 5.01% 的用户
+     */
+    public int romanToInt1(String s) {
+        int ans = 0;
+        for (int i = 0;i<s.length();i++){
+            if (i+1<s.length()) {
+                int m = getValue(s.charAt(i));
+                if (m>=getValue(s.charAt(i+1))){
+                    ans += m;
+                }else {
+                    ans -= m;
+                }
+            }else {
+                return ans+getValue(s.charAt(i));
+            }
+        }
+        return 0;
+    }
+
+    private int getValue(char ch) {
+        switch(ch) {
+            case 'I': return 1;
+            case 'V': return 5;
+            case 'X': return 10;
+            case 'L': return 50;
+            case 'C': return 100;
+            case 'D': return 500;
+            case 'M': return 1000;
+            default: return 0;
+        }
     }
 }

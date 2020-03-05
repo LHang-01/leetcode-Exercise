@@ -1,11 +1,8 @@
 # 记录LeetCode刷题历程
 ## 使用语言：java
 
-## Num8有问题
-## Num18有问题
 ## Num209有问题
 ## Num227有问题
-## Num457有问题
 ## 剑指offernum19_ReMatch有问题  正则匹配
 ## 剑指offernum20_isNumeric有问题  正则匹配
 ## 剑指offer面试题29

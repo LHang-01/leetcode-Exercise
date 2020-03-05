@@ -19,9 +19,6 @@ public class Num67 {
     /**
      * 执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
      * 内存消耗 :36.1 MB , 在所有 java 提交中击败了55.19%的用户
-     * @param a
-     * @param b
-     * @return
      */
     public static String addBinary(String a, String b) {
         int i = a.length()-1;

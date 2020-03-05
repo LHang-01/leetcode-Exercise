@@ -21,8 +21,6 @@ public class Num58 {
      * 双指针
      * 方法：先把字符串末尾的" "删除；
      *      然后从后往前记录非零个数的位数。
-     * @param s
-     * @return
      */
     public static int lengthOfLastWord(String s) {
         int i = s.length()-1;

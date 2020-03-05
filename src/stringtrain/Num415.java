@@ -15,13 +15,8 @@ public class Num415 {
     }
 
     /**
-     * 执行用时 :
-     * 2 ms , 在所有 java 提交中击败了99.76%的用户
-     * 内存消耗 :
-     * 36 MB, 在所有 java 提交中击败了86.61%的用户
-     * @param num1
-     * @param num2
-     * @return
+     * 执行用时 : 2 ms , 在所有 java 提交中击败了99.76%的用户
+     * 内存消耗 : 36 MB, 在所有 java 提交中击败了86.61%的用户
      */
     public static String addStrings(String num1, String num2) {
         int i = num1.length()-1;

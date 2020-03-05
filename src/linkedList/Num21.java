@@ -9,17 +9,13 @@ package linkedList;
  */
 public class Num21 {
     /**
-     * 执行用时 :
-     * 1 ms , 在所有 java 提交中击败了84.20%的用户
+     * 执行用时 : 1 ms , 在所有 java 提交中击败了84.20%的用户
      * 内存消耗 :39.3 MB, 在所有 java 提交中击败了68.90%的用户
      *
      * 思路：
-     * 如果 l1 当前位置的值小于等于 l2 ，我们就把 l1 的值接在 prev 节点的后面同时将 l1 指针往后移一个。
-     * 否则，我们对 l2 做同样的操作。不管我们将哪一个元素接在了后面，我们都把 prev 向后移一个元素。
+     * 如果 l1 当前位置的值小于等于 l2 ，我们就把 l1 的值接在 pre 节点的后面同时将 l1 指针往后移一个。
+     * 否则，我们对 l2 做同样的操作。不管我们将哪一个元素接在了后面，我们都把 pre 向后移一个元素。
      * 当某一链表为空时，则跳出循环，并且将pre指向不空的另一条链表头。
-     * @param l1
-     * @param l2
-     * @return
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode pre=new ListNode(-1);;

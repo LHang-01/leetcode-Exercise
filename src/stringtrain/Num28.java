@@ -1,9 +1,10 @@
 package stringtrain;
 
 /**
+ * KMP算法（没看懂）
  * 28. 实现 strStr()
  * 实现 strStr() 函数。
- * 给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
+ * 给定一个haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
  * 示例 1:
  * 输入: haystack = "hello", needle = "ll"
  * 输出: 2
@@ -21,9 +22,6 @@ public class Num28 {
     /**
      * 执行用时 :14 ms, 在所有 java 提交中击败了12.73%的用户
      * 内存消耗 :37.8 MB , 在所有 java 提交中击败了36.18%的用户
-     * @param haystack
-     * @param needle
-     * @return
      */
     public static int strStr(String haystack, String needle) {
         if (haystack==null||needle==null||haystack.length()<needle.length()) return -1;

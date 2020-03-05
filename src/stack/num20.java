@@ -2,7 +2,17 @@ package stack;
 
 import java.util.HashMap;
 import java.util.Stack;
-
+/**
+ * 分类：栈、字符串
+ * 难度：简单
+ * 20. 有效的括号
+ * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
+ *
+ * 有效字符串需满足：
+ * 左括号必须用相同类型的右括号闭合。
+ * 左括号必须以正确的顺序闭合。
+ * 注意空字符串可被认为是有效字符串。
+ */
 public class num20 {
     /**
      *执行用时 :* 3 ms, 在所有 java 提交中击败了70.28%的用户
@@ -59,8 +69,6 @@ public class num20 {
     /**
      * 执行用时 : 4 ms , 在所有 java 提交中击败了 42.22% 的用户
      * 内存消耗 : 34.6 MB, 在所有 java 提交中击败了83.23%的用户
-     * @param s
-     * @return
      */
     public static boolean isValid1(String s) {
         Stack<String> stack = new Stack<>();
@@ -82,7 +90,6 @@ public class num20 {
                     stack.push(temp);
                 }
             }
-
         }
         if (stack.isEmpty()) return true;
         return false;

@@ -27,8 +27,6 @@ public class Num38 {
     /**
      * 执行用时 :21 ms , 在所有 java 提交中击败了8.69%的用户
      * 内存消耗 :36.2 MB , 在所有 java 提交中击败了 74.48%的用户
-     * @param n
-     * @return
      */
     public static String countAndSay1(int n) {
         String ans = "1";
@@ -54,8 +52,6 @@ public class Num38 {
     /**
      * 执行用时 :2 ms , 在所有 java 提交中击败了88.20%的用户
      * 内存消耗 :34.2 MB , 在所有 java 提交中击败了90.55%的用户
-     * @param n
-     * @return
      */
     public static String countAndSay2(int n) {
         String ans = "1";

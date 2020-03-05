@@ -13,7 +13,7 @@ package stringtrain;
  */
 public class Num125 {
     public static void main(String [] arrs){
-        System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
+        System.out.println(isPalindrome1("A man, a plan, a canal: Panama"));
     }
 
     /**
@@ -21,10 +21,8 @@ public class Num125 {
      * 内存消耗 :37.5 MB , 在所有 java 提交中击败了92.49%的用户
      *
      * 双指针
-     * @param s
-     * @return
      */
-    public static boolean isPalindrome(String s) {
+    public static boolean isPalindrome1(String s) {
         int n = s.length();
         int i = 0;
         int count = 0;

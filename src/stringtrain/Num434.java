@@ -9,13 +9,25 @@ package stringtrain;
  * 输出: 5
  */
 public class Num434 {
+
     /**
-     * 执行用时 :
-     * 0 ms, 在所有 java 提交中击败了 100.00%的用户
-     * 内存消耗 :
-     * 34.1 MB, 在所有 java 提交中击败了 63.33%的用户
-     * @param s
-     * @return
+     * 执行用时 : 0 ms , 在所有 Java 提交中击败了 100.00% 的用户
+     * 内存消耗 : 37.1 MB , 在所有 Java 提交中击败了 5.24% 的用户
+     */
+    public int countSegments1(String s) {
+        String[] s1 = s.trim().split(" ");
+        int count = 0;
+        for (String s2:s1){
+            if (!s2.equals("")){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /**
+     * 执行用时 : 0 ms, 在所有 java 提交中击败了 100.00%的用户
+     * 内存消耗 : 34.1 MB, 在所有 java 提交中击败了 63.33%的用户
      */
     public int countSegments(String s) {
         //1.确定左边非空格的首字母位置

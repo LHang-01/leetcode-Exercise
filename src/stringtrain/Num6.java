@@ -30,9 +30,9 @@ public class Num6 {
      *
      * 执行用时 :9 ms, 在所有 java 提交中击败了67.33%的用户
      * 内存消耗 :38.9 MB, 在所有 java 提交中击败了94.57%的用户
-     * @param s
-     * @param numRows
-     * @return
+     *
+     * 时间复杂度：O(n)，其中 n==len(s)
+     * 空间复杂度：O(n)
      */
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;

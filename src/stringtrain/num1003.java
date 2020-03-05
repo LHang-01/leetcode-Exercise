@@ -17,7 +17,6 @@ import java.util.Stack;
  *
  * 如果给定字符串 S 有效，则返回 true；否则，返回 false。
  *
- *
  * 由于每次必然会出现完整的abc，可以用栈记录字符，遍历字符串，依次将字符入栈，
  * 如果遇到a、b、c连续则均弹出，最后判断栈是否为空即可。
  */
@@ -46,7 +45,6 @@ public class num1003 {
                 }else {
                     return false;
                 }
-
             }
         }
         return stack.empty();
